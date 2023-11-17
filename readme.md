@@ -136,10 +136,6 @@ CREATE TABLE IF NOT EXISTS zomato_data(
 
 ![Process Complete](https://imgur.com/dGpKjYM.png)
 
-## 🎨 Visualization
-
-![Dashboard](https://imgur.com/fIa3odo.png)
-
 ## ✨ Key Points to Remember
 
 - The pipeline is programmed for a Zomato-centric Twitter search. If you wish to collect data on a different subject, you can modify the `construct_query` function in `/twitter-data-pipeline/main.py`.
