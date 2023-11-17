@@ -115,7 +115,7 @@ airflow standalone
 
 ```bash
 # Redshift table generation query
-CREATE TABLE IF NOT EXISTS zomato_data(
+CREATE TABLE IF NOT EXISTS sjsu_data(
     "USER" VARCHAR(50),
     "USERNAME" VARCHAR(50),
     "CREATED_AT" TIMESTAMP,
@@ -138,7 +138,7 @@ CREATE TABLE IF NOT EXISTS zomato_data(
 
 ## ✨ Key Points to Remember
 
-- The pipeline is programmed for a Zomato-centric Twitter search. If you wish to collect data on a different subject, you can modify the `construct_query` function in `/twitter-data-pipeline/main.py`.
+- The pipeline is programmed for a SJSU-centric Twitter search. If you wish to collect data on a different subject, you can modify the `construct_query` function in `/twitter-data-pipeline/main.py`.
 - The pipeline won't automatically save data to an S3 bucket. To store data in your chosen S3 buckets, update the `raw_data_bucket_name` and `processed_data_bucket_name` variables in `/twitter-data-pipeline/main.py` with your bucket details.
 - Currently, the pipeline is set to run on daily basis. You can adjust the `schedule_interval` in the DAG definition to suit your needs, whether that means running the pipeline more or less frequently.
 
@@ -159,7 +159,7 @@ There's always room for improvement! Here are a few areas that could be expanded
 
 ## 🔐 Disclaimer
 
-This project is intended for educational purposes. Always ensure you comply with Twitter's and Zomato's terms of service, as well as all relevant laws and regulations. Remember to ensure data privacy, security, and compliance in any production implementation.
+This project is intended for educational purposes. Always ensure you comply with Twitter's and SJSU's terms of service, as well as all relevant laws and regulations. Remember to ensure data privacy, security, and compliance in any production implementation.
 
 ## 💌 Author
 
