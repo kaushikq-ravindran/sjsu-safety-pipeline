@@ -8,7 +8,7 @@ Due to recent restrictions imposed on the Twitter API, we've adopted a scraping 
 
 🔮 Sneak Peek at Our Architectural Blueprint!
 
-![Architecture](https://imgur.com/A5jBo0p.png)
+![Architecture](https://imgur.com/a/CNQvAMJ)
 
 ## 🛠️ Pipeline Architecture
 
